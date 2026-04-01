@@ -15,10 +15,7 @@ x402-handler
 *.cache
 
 # Go模块缓存和构建缓存
-go.sum
 vendor/
-.cache/
-.modcache/
 
 # 测试覆盖率文件
 coverage.out
@@ -27,6 +24,7 @@ coverage.out
 #config.yaml
 #config.json
 .env*
+!.env.example
 
 # 开发工具生成的文件
 .idea/
@@ -44,11 +42,7 @@ coverage.out
 logs/
 
 # 二进制
-x402-handler
 mcp-guard
-
-# 日志目录
-logs/
 
 # Claude Code 相关
 CLAUDE.md
