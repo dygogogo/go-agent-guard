@@ -38,13 +38,25 @@ Works with Claude Code, Cursor, ChatGPT, and any AI agent that speaks the MCP pr
 - Go 1.24+
 - No CGO required (pure Go SQLite driver)
 
-### Build
+### Build from Source
 
 ```bash
 git clone https://github.com/dygogogo/agent-guard-mcp.git
 cd agent-guard-mcp
 go build -o mcp-guard main.go
 ```
+
+### Download Pre-built Binary
+
+Download the latest release for your platform:
+
+| Platform | amd64 | arm64 |
+|----------|-------|-------|
+| macOS | [darwin-amd64.zip](https://github.com/dygogogo/agent-guard-mcp/releases/latest) | [darwin-arm64.zip](https://github.com/dygogogo/agent-guard-mcp/releases/latest) |
+| Linux | [linux-amd64.zip](https://github.com/dygogogo/agent-guard-mcp/releases/latest) | [linux-arm64.zip](https://github.com/dygogogo/agent-guard-mcp/releases/latest) |
+| Windows | [windows-amd64.zip](https://github.com/dygogogo/agent-guard-mcp/releases/latest) | [windows-arm64.zip](https://github.com/dygogogo/agent-guard-mcp/releases/latest) |
+
+Or visit the [latest release](https://github.com/dygogogo/agent-guard-mcp/releases/latest) page.
 
 ### Configuration
 
