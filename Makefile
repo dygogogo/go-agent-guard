@@ -1,6 +1,6 @@
 .PHONY: build run test clean vet cover docker
 
-BINARY   := mcp-guard
+BINARY   := agent-guard-mcp
 GO       := go
 GOFLAGS  := -trimpath -ldflags="-s -w"
 
@@ -24,4 +24,4 @@ clean:
 	rm -f $(BINARY) coverage.out
 
 docker:
-	docker build -t mcp-guard .
+	docker build -t agent-guard-mcp .
